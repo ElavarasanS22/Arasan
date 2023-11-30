@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+	  <parameter name="first" value="Imsaiarasan"></parameter>
+	  <parameter name="second" value="Pulikesi"></parameter>
+	  <parameter name="address" value="Arakkapuram,Tanjore,TamilNadu"></parameter>
+	  <parameter name="email" value="pulikesi23@gmail.com"></parameter>
+	  <parameter name="phone" value="9854671236"></parameter>
+	  <parameter name="pass" value="@qwerty7890"></parameter>
+	  <parameter name="confirmpass" value="@qwerty7890"></parameter>
+    <classes>
+      <class name="com.testng.ParaTestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
